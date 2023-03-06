@@ -1,0 +1,150 @@
+* {
+    background-color: #F7FFCC;
+    box-sizing: border-box;
+    border: 0 solid;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+h1, .Encabezado {
+    display: inline-block;
+}
+ 
+  .Encabezado img  {
+    filter: brightness(1.1) contrast(1.3);
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 12px
+    border: 10px; 
+    position: justify;
+  }
+
+h1  {
+    text-align: left;
+    font-size: 60px;
+    padding: 30px;
+    border: 30px; 
+    margin: 2px;
+    margin-top: 15px;
+    margin-left: 1px;
+    padding: 3px;
+    padding-top: 6px;
+}
+
+.Educacion h2 {
+
+    font-size: 40px;
+    padding: 120px auto 120px auto;
+    border: 15px;
+    margin: 30px;
+    
+}
+
+
+.encabezado {
+    height: 200px;
+    width: 400px;
+    padding: 3px;
+    border: 15px;
+    margin: 30px;
+    padding-top: 10px;
+    border-top: 30px;
+
+}
+
+
+#Educación p {
+    color: blue; 
+    font-size: 20px;
+    word-spacing: 0px;
+    font-weight: lighter;
+}
+
+.Experiencia {
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.Experiencia p {
+    color: blue; 
+    font-size: 20px;
+    word-spacing: 0px;
+    font-weight: lighter;
+
+}
+
+
+
+.Radio {
+    color: black;
+    margin: 5px;
+    border: 3px
+    padding: 4px;
+    text-align: left;
+    margin-top: 1px;
+    padding-top: 5px;
+}
+
+.card img {
+    position: static;
+    border-radius: 25px;
+    width: 440px;
+    height: 299px;
+    border: 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+ * {
+    background-color: greenyellow;
+    color: white;
+ }
+
+ .card img {
+ 
+    position: inherit;
+
+ }
+
+ p {
+
+    color: white;
+    letter-spacing: 1px;
+ }
+
+ .Experiencia {
+
+    color: white
+ }
+
+ .Radio {
+    color: white;
+    letter-spacing: 1px;
+
+ }
+
+ .Educacion p {
+    color: white;
+    letter-spacing: 1px;
+ }
+
+ .Encabezado img  { 
+    
+   border-radius: 50%;
+   width: 20%;
+   height: 20%;
+ }
+
+
+}
